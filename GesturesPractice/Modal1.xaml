@@ -4,8 +4,8 @@
              x:Class="GesturesPractice.Modal1">
     
     <ContentPage.Content>
-        <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
-            <Image x:Name="img" Source="https://lh3.googleusercontent.com/FgqdFbUbdi7llj1oUpe-p-zF6px0aiabb3eKjN9U6lXxhQmF94XQRgrdf6KNFcJlHfLZ-Q7c6E31F14S3bdfOkNMzLCiSGGqm3KJ=w600">
+        <StackLayout VerticalOptions="Center" >
+            <Image x:Name="img" HeightRequest="300" WidthRequest="300">
                 <Image.GestureRecognizers>
                     <TapGestureRecognizer Tapped="OnTapGestureRecognizerTapped" NumberOfTapsRequired="2"/>
                     <PinchGestureRecognizer PinchUpdated="OnPinchZoom" />
