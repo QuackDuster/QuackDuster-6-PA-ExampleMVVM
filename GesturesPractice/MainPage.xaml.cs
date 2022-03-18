@@ -28,12 +28,6 @@ namespace GesturesPractice
             await this.Navigation.PushModalAsync(new Modal2(imagen2));
         }
 
-        async void OnTapExit(object sender, EventArgs args)
-        {
-            var imagen3 = (Image)sender;
-            await this.Navigation.PushModalAsync(new Modal1(imagen3));
-
-        }
     }
 
 }
